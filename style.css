@@ -77,3 +77,31 @@
   text-align: center;
   background: #616161;
 }
+
+/* Selector for second grid which contains my articles */
+.second-grid {
+  background-color: #9E9E9E;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 630px;
+  height: 630px;
+  width: 100%;
+}
+
+/* selector for articles inside second section */
+.second-grid-article {
+  border: 1px solid white;
+}
+
+/* Selector for the div which contains text, inside second grid*/
+.second-grid-text {
+  margin-top: 75px;
+  background-color: #757575;
+  position: relative;
+  top: 50px;
+}
+
+/* Margin for my second grid  */
+.second-grid-header {
+  margin-top: 75px;
+}
