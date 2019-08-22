@@ -1,0 +1,29 @@
+/* Selector for main Header which contains my navgation links  */
+.main-topics-header {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  height: 178px;
+  align-items: center;
+  background-color: #777;
+}
+
+/* Selector for logo container inside header */
+.logo-container {
+  text-align: center;
+  width: 100%;
+}
+
+/* Selector for main-navbar */
+.main-navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Selector for the search option inside main navbar */
+.search-container {
+  width: 100%;
+  text-align: center;
+}
