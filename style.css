@@ -300,3 +300,54 @@ a:link {
 .twitter-notice {
   margin-top: -220px;
 }
+
+/* Selector for the table of contents section */
+.table-of-contents {
+  color: white;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 422px;
+  background-color: #212121;
+}
+
+
+/* Selector for the table of contents container */
+.table-container {
+  padding-left: 73px;
+  padding-top: 72px;
+  max-width: 742px;
+}
+
+/* Selector for the header design systems */
+div.table-container h1 {
+  margin-bottom: 44px;
+  background-color: #9E9E9E;
+}
+
+/* Selector for the text inside table-container */
+div.table-container p {
+  background-color: #616161;
+}
+
+/* Selector for the button inside table of contents container */
+.table-of-contents-button {
+  color: white;
+  background-color: #424242;
+  margin-top: 40px;
+  font-size: 26px;
+  padding: 32px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Selector for the div representing the image inside systems book */
+.table-of-contents-image {
+  position: absolute;
+  top: -80px;
+  right: 90px;
+  width: 250px;
+  height: 370px;
+  background-color: #757575;
+  transform: rotate(-20deg);
+}
