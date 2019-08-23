@@ -137,7 +137,7 @@ a:link {
 
 /* Selector for the right figure header container */
 .right-figure-header-container {
-  width: 395px;
+  width: 60%;
   height: 395px;
   background: #424242;
   color: white;
@@ -217,7 +217,7 @@ a:link {
 
 /* Selector for the gray square used as an image in the news section */
 .image-div {
-  width: 955px;
+  width: 80%;
   height: 539px;
   background-color: #757575;
   position: absolute;
@@ -357,7 +357,7 @@ div.table-container p {
   position: relative;
   top: -62px;
   text-decoration: underline;
-  width: 200px;
+  width: 33%;
   margin-left: 30px;
 }
 
@@ -407,7 +407,52 @@ div.table-container p {
 
 /* Selector for the newsletter button at the bottom of the page */
 .newsletter-button {
-  width: 440px;
+  width: 70%;
   height: 60px;
   background-color: #757575;
+}
+
+/* Selector for main footer */
+footer {
+  position: relative;
+  height: 692px;
+  width: 100%;
+  background: #212121;
+}
+
+/* Footer container for the text */
+.footer-top-text {
+  margin: 0 auto;
+  position: relative;
+  top:  90px;
+  width: 80%;
+  height: 311px;
+  background-color: #616161;
+}
+
+/* Container for the 2 images inside footer */
+.footer-images-container {
+  position: relative;
+  top: 140px;
+  width: 100%;
+  height: 229px;
+  background: #212121;
+}
+
+/* Selector for the left image inside footer */
+.footer-image-1 {
+  margin-left: 157px;
+  display: inline-block;
+  width: 283px;
+  height: 194px;
+  background-color: #424242;
+}
+
+/* Selector for the right image inside footer */
+.footer-image-2 {
+  margin-right: 157px;
+  float: right;
+  width: 283px;
+  height: 194px;
+  background-color: #424242;
 }
