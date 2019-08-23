@@ -1,3 +1,8 @@
+/* Selector for the body tag*/
+body {
+  z-index: 2;
+}
+
 /* Selector for main Header which contains my navigation links  */
 .main-topics-header {
   display: flex;
@@ -294,6 +299,15 @@ a:link {
 .small-bottom-article-header {
   background-color: #757575;
   display: inline;
+}
+
+/* Selector for hidden elements */
+.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: transparent;
 }
 
 /* Selector for more links on Twitter notice */
