@@ -191,12 +191,13 @@ a:link {
   background-color: #424242;
 }
 
+/* Selector for the container which contains the text at the news section */
 .news-container {
   margin-top: 45px;
   max-width: 756px; 
 }
 
-/* Selector which contains text inside news section */
+/* Selector for the button at the news section */
 .news-button {
   color: white;
   font-size: 26px;
@@ -207,17 +208,95 @@ a:link {
   background-color: #616161;
 }
 
+/* Selector for the container of the image at the news section */
 .image-container {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
+/* Selector for the gray square used as an image in the news section */
 .image-div {
   width: 955px;
   height: 539px;
   background-color: #757575;
   position: absolute;
   bottom: 0;
-  
+}
+
+/* Selector for the person of the week article */
+.person-of-the-week {
+  width: 100%;
+  height: 500px;
+  background-color: #9E9E9E;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template: 1fr / repeat(4, 1fr);
+  margin-right: 32px;
+}
+
+/* Selector for the person of the week picture */
+.person-of-the-week-pic {
+  grid-column: 1 / span 1;
+  background: #424242;
+  width: 253px;
+  height: 255px;
+  border-radius: 12px;
+  transform: rotate(75deg);
+}
+
+/* Selector for the person of the week text */
+.person-of-the-week-text {
+  grid-column: 2 / span 3;
+  color: white;
+  left: 50px;
+  background-color: #616161;
+}
+
+/* Selector for the grid of articles at the bottom */
+.bottom-articles-grid {
+  display: grid;
+  width: 100%;
+  height: 1290px;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  background: #9E9E9E;
+}
+
+/* Selector for the articles at the bottom of the page */
+.small-bottom-article {
+  position: relative;
+  color: white;
+}
+
+/* Selector for the pictures at the articles at the bottom of the page */
+.small-bottom-article-pic {
+  width: 73px;
+  height: 73px;
+  background-color: #616161;
+  transform: rotate(75deg);
+  border-radius: 12px;
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+/* Selector for the text container at the article section at the bottom of the page */
+.small-bottom-article-text-container {
+  float: right;
+  max-width: 470px;
+  position: relative;
+  bottom: 50px;
+  right: 40px;
+}
+
+/* Selector for the headers of the articles at the bottom section of the page */
+.small-bottom-article-header {
+  background-color: #757575;
+  display: inline;
+}
+
+/* Selector for more links on Twitter notice */
+.twitter-notice {
+  margin-top: -220px;
 }
