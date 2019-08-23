@@ -351,3 +351,63 @@ div.table-container p {
   background-color: #757575;
   transform: rotate(-20deg);
 }
+
+/* Selector for the list of elements at the guides section */
+.list-container {
+  position: relative;
+  top: -62px;
+  text-decoration: underline;
+  width: 200px;
+  margin-left: 30px;
+}
+
+/* Selector for the list individual elements at the guides section */
+.list-element {
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+
+/* Selector for the seventh grid */
+.seventh-grid {
+  height: 1083px;
+  background-color: #9E9E9E;
+}
+
+/* Selector for the newsletter article at the bottom of the page */
+.newsletter-article {
+  height: 940px;
+  color: white;
+  display: block;
+}
+
+/* Selector for the h2 in the newsletter article at the bottom of the page */
+.newsletter-article h2 {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 162px;
+}
+
+/* Selector for the span inside the h2 in the newsletter article at the bottom of the page */
+.newsletter-article h2 span {
+  background-color: #424242;
+  padding: 32px;
+}
+
+/* Selector for the newsletter image at the bottom of the page */
+.newsletter-image {
+  margin: 0 auto;
+  background-color: #616161;
+}
+
+/* Selector for the container of the newsletter button at the bottom of the page */
+.newsletter-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Selector for the newsletter button at the bottom of the page */
+.newsletter-button {
+  width: 440px;
+  height: 60px;
+  background-color: #757575;
+}
