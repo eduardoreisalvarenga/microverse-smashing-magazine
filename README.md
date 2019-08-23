@@ -2,7 +2,7 @@
 
 This is our solution to Microverse's fifth project. It is a heat map of Smashing Magazine's site as shown on August 23, 2019. The current Smashing Magazine's site is found [here](https://www.smashingmagazine.com/). It is created using HTML5 and CSS3.
 
-A live version can be found [here](https://rawcdn.githack.com/eduardoreisalvarenga/microverse-smashing-magazine/45b6ec9bcfae71b8fe5a1d5833a35266d2bb71b3/index.html).
+A live version can be found [here](https://rawcdn.githack.com/eduardoreisalvarenga/microverse-smashing-magazine/3a999c88ad3576a52408785a93ca96f308f2eec9/index.html).
 
 ## Project contributors:
 
@@ -19,3 +19,11 @@ A live version can be found [here](https://rawcdn.githack.com/eduardoreisalvaren
 ### Screenshot 2
 
 ![Screenshot 2](screenshots/2.png)
+
+### Screenshot 3
+
+![Screenshot 3](screenshots/3.png)
+
+### Screenshot 4
+
+![Screenshot 4](screenshots/4.png)
