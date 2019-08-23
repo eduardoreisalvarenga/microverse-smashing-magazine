@@ -187,17 +187,37 @@ a:link {
 
 /* Selector for the header inside news section */
 .news-header {
-  
+  margin-top: 130px;
+  background-color: #424242;
 }
 
 .news-container {
+  margin-top: 45px;
   max-width: 756px; 
 }
 
 /* Selector which contains text inside news section */
 .news-button {
-  margin-top: 52px;
-  padding: 8px;
+  color: white;
+  font-size: 26px;
+  margin-top: 57px;
+  padding: 10px;
   border-radius: 12px;
-  border: 1px solid white;
+  border: none;
+  background-color: #616161;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.image-div {
+  width: 955px;
+  height: 539px;
+  background-color: #757575;
+  position: absolute;
+  bottom: 0;
+  
 }
